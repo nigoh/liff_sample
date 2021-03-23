@@ -44,6 +44,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <button className="button" onClick={sendMessage}>send message</button>
+        <button className="button" onClick={getUserInfo}>show user info</button>
         <a
           className="App-link"
           href="https://reactjs.org"
